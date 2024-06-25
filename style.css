@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    font-family: 'kanit', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+}
+.nav-links{
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-link{
+    list-style-type: none;
+    font-size: 20px;
+}
+.nav-link a{
+   text-decoration: none; 
+   color: #000;
+   font-size: 20px;
+   margin: 10px;
+
+}
+.logo{
+    border-radius: 100px;
+}
+.top{ 
+    display: flex;
+    
+
+}
+.nav-link button{
+    border-color: #008000;
+    color: #000;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.nav-link button#diff{
+    border-color: green;
+    color: #fff;
+    border-style: solid;
+    font-size: 20px;
+    background-color: #008000;
+    padding: 10px;
+
+}
+.set{
+    margin-left: 55px;
+    text-decoration: underline #008000;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+.spot{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 400px;
+    place-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.item{  
+    text-align: center;
+    font-size: 23px;
+    text-decoration:underline #008000;
+    text-transform: uppercase;
+    text-shadow: #000;
+}
+.button {
+    text-align: center;
+}
+button a{
+    
+    text-decoration: none;
+    color: #fff;
+    
+}
+.edit{
+    border-color: green;
+    color: #fff;
+    border-style: solid;
+    font-size: 20px;
+    background-color: #008000;
+    padding: 10px;
+    text-align: center;
+    
+}
+.kerala{
+    text-align: right;
+    margin-right: 50px;
+}
+.map
+{
+    display: flex;
+    margin: 55px;
+    
+}
+.mapofkerala{
+    
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    border-color: #008000;
+    
+}
+.about{
+    font-size: 18px;
+    line-height: 250%;
+
+    
+}
+#secondp{
+    margin: 55px;
+    font-size: 18px;
+    line-height: 250%;
+
+}
+.district{
+    display: inline-block;
+    
+}
