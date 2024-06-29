@@ -28,13 +28,13 @@
 
         </header>
         <section class="top">
-            <h1 id="home">COME AND ENJOY OUR CULTURE</h1>
+            <h1 id="home">COME AND ENJOY <p>OUR CULTURE</p></h1>
             <a href="#kerala">Learn More</a>
             <a href="#contact">Contact us</a>
 
         </section>
     </main>
-    <hr>
+
 
     <section>
         <h1 class="set">Top Destinations</h1>
@@ -86,39 +86,81 @@
             Communist government, and the first Indian state to successfully introduce a family-planning programme.</p>
     </section>
     <br> <br>
-    <section>
+    
         <h1  class="set" id="districts">Our Districts</h1>
+        <section class="district-section">
 
         <div class="districts">
-            <div class="district"><img src="./kerala images/thiruvanthapuram.jpeg" alt="Thiruvanthapuram" width="300" height="300"></div>
-            <div class="dis">Thiruvanthapuram</div>
-            <div class="district"><img src="./kerala images/kollam.jpeg" alt="Kollam" width="300" height="300"></div>
-            <div class="dis">Kollam</div>
-            <div class="district"><img src="./kerala images/eranakullam.jpeg" alt="Eranakullam" width="300" height="300"></div>
-            <div class="dis">Eranakullam</div>
-            <div class="district"><img src="./kerala images/thrissur.jpg" alt="Thissur" width="300" height="300"></div>
-            <div class="dis">Thrissur</div>
-            <div class="district"><img src="./kerala images/kozhikode.jpg" alt="Kozhikode" width="300" height="300"></div>
-            <div class="dis">Kozhikode</div>
-            <div class="district"><img src="./kerala images/waynad.jpg" alt="Waynad" width="300" height="300"></div>
-            <div class="dis">Waynad</div>
+            
+            <div class=" img-district">
+                <img src="./kerala images/thiruvanthapuram.jpeg" alt="Thiruvanthapuram">
+            </div>
+            <h4>Thiruvanthapuram</h4>
+        </div>
+
+            <div class="districts">
+
+            <div class="img-district">
+                <img src="./kerala images/kollam.jpeg" alt="Kollam">
+            </div>
+            <h4>Kollam</h4>
+        </div>
+        <div class="districts">
+
+            <div class="img-district">
+                <img src="./kerala images/eranakullam.jpeg" alt="Eranakullam">
+            </div>
+            <h4>Eranakullam</h4>
+        </div>
+        <div class="districts">
+            <div class="img-district">
+                <img src="./kerala images/thrissur.jpg" alt="Thissur">
+            </div>
+            <h4>Thrissur</h4>
+        </div>
+        <div class="districts">
+            <div class="img-district">
+                <img src="./kerala images/kozhikode.jpg" alt="Kozhikode">
+            </div>
+        <h4>Kozhikode</h4>
     </div>
+    <div class="districts">
+            <div class="img-district">
+                <img src="./kerala images/waynad.jpg" alt="Waynad">
+            </div>
+        <h4>Waynad</h4></div>
+    </section>
+    <br><br>
     <div class="button">
         <button class="edit"> <a href="#">See More</a></button>
     </div>
         <br><br><br>
-    </section>
+<section class="center">   
+
+    <div class="form-section">
     <h1 id="contact">Enquiry For Booking</h1>
     <form action="">
-        <label for="fname">Full Name:</label>
+        <div class="input-group">
+        
+        <label for="fname">Name</label>
         <input type="text" name="fname" id="fname" title="Full Name should include  only letters  and space" maxlength="20" pattern="[A-Za-z\s]+">
-        <br><br>
-        <label for="num">Phone Number:</label>
-        <input type="tel" name="num" id="num" pattern="[0-9]{10}" required>
-        <br><br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="e g:abc@gmail.com" required>
-        <br><br>
+    </div>
+
+        <div class="input-group">
+            
+            <label for="num">Number</label>
+            <input type="tel" name="num" id="num" pattern="[0-9]{10}" required>
+            
+        </div>
+
+        <div class="input-group">
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="e g:abc@gmail.com" required>
+        </div>
+
+        <div class="input-group">
+    
         <label for="districts">Districts:</label>
         <select name="districts" id="districts">
             <option value="Thiruvanthapuram">Thiruvanthapuram</option> 
@@ -137,12 +179,12 @@
             <option value="Kasaragod">Kasaragod</option>
 
         </select>
-        <br>
-        <br>
-
-        <button type="reset">Clear</button>
-
-        <button type="submit">Enquiry</button>
+    </div>
+        <div class="submit-group">
+        <button type="submit" class="submit-button">Enquiry</button>
+    </div> 
+</div>
+</section>
      <footer>
         <h2 id="about">About us</h2>
         <P> Website of <i>xyz Tavels </i> under the guidelines of tourism and travels of Govt.Kerala. <b> copyrights towrads xyz Travels</b> </P>

@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'kanit', sans-serif;
+   
 }
 header{
     display: flex;
@@ -14,7 +15,21 @@ header{
     padding: 20px;
     align-items: center;
     
+    
+    
+}  
+main{
+    background-image: url(./desktop-wallpaper-kathakali-kerala-culture.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment:scroll;
+    background-size: cover;
+   height: 700px; 
+
+
+    
 }
+
 .nav-links{
     display: flex;
     gap: 1.5rem;
@@ -25,18 +40,30 @@ header{
 }
 .nav-link a{
    text-decoration: none; 
-   color: #000;
-   font-size: 20px;
+   color: #fff;
+   font-size: 25px;
    margin: 10px;
+   letter-spacing: 1px;
 
 }
 .logo{
     border-radius: 100px;
 }
 .top{ 
-    display: flex;
+    display: flex;;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
     
 
+}
+.top h1{
+    font-size: 60px;
+    color: #fff;
+
+}
+.top a{
+    display: flex;
 }
 .nav-link button{
     border-color: #008000;
@@ -47,6 +74,7 @@ header{
     padding: 10px;
     background-color: #fff;
     text-align: center;
+    letter-spacing: 1px;
 }
 .nav-link button#diff{
     border-color: green;
@@ -55,6 +83,8 @@ header{
     font-size: 20px;
     background-color: #008000;
     padding: 10px;
+    letter-spacing: 1px;
+
 
 }
 .set{
@@ -128,7 +158,89 @@ button a{
     line-height: 250%;
 
 }
-.district{
-    display: inline-block;
+.district-section{
+    display: grid;
+    grid-template-columns:400px 400px 400px;
+    grid-template-rows: 400px;
+    place-content: center;
+    justify-items: center;
+    align-items: center;
+   
+}
+.districts h4{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline #008000;
+}
+.districts{
+    width: 350px;
+    //*border-radius: 15px;
+    box-shadow: 10px 5px 26px rgb(170, 165, 165);*/
+}
+
+.img-district{
+    width: 100%;
+    height: 300px;
+}
+.img-district img{
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+
+}
+.center{
+    display: grid;
+    place-content: center;
+}
+.form-section{
+    width: 350px;
+    background-color: white;
+    border: 0px solid black;
+    height: 400px;
+    padding: 40px 0;
+    box-shadow: 4px 6px 5px 2px rgba(0,0, 0, 0.26);
+    border-radius: 15px;
+   
+
+}
+.form-section h1{
+    text-align: center;
+    color: #008000;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline black; 
+    margin: auto;
+    margin-bottom: 20px;
+
+
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #008000;
+    padding: 2px 5px;
+}
+.input-group{
+    width: 300px;
+    margin: 30px auto;
+    color: grey;
+    font-size: 16px;
     
+
+}
+.submit-group{
+    text-align: center;
+}
+.submit-button{
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    width: 200px;
+    font-size: 18px;
+
+
+}
+footer{
+    background-color: lightgreen;
 }
