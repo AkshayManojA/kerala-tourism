@@ -12,7 +12,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1.25rem;
     align-items: center;
     
     
@@ -24,10 +24,7 @@ main{
     background-position: center ;
     background-attachment:scroll;
     background-size: cover;
-   height: 700px; 
-
-
-    
+   height: 43.75rem;
 }
 
 .nav-links{
@@ -36,21 +33,44 @@ main{
 }
 .nav-link{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .nav-link a{
    text-decoration: none; 
    color: #fff;
-   font-size: 25px;
-   margin: 10px;
-   letter-spacing: 1px;
+   font-size: 1.5625rem;
+   margin: .625rem;
+   letter-spacing: .0625rem;
 
 }
 .logo{
-    border-radius: 100px;
+    border-radius: 6.25rem;
 }
+.nav-link button{
+    border-color: #008000;
+    color: #000;
+    border-style: solid;
+    border-width: .25rem;
+    font-size: 1.25rem;
+    padding: .625rem;
+    background-color: #fff;
+    text-align: center;
+    letter-spacing: .0625rem;
+}
+.nav-link button#diff{
+    border-color: green;
+    color: #fff;
+    border-style: solid;
+    font-size: 1.25rem;
+    background-color: #008000;
+    padding: .625rem;
+    letter-spacing: .0625rem;
+
+
+}
+/* header  ends */
 .top{ 
-    display: flex;;
+    display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -58,53 +78,64 @@ main{
 
 }
 .top h1{
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #fff;
 
 }
-.top a{
+.top-section {
     display: flex;
+    gap: 1.5rem;
+    
 }
-.nav-link button{
+.top-section a{
+    text-decoration: none; 
+    
+    font-size: 1.5625rem;
+    margin: .625rem;
+    letter-spacing: .0625rem; 
+}
+.top-sectiona{
     border-color: #008000;
-    color: #000;
+    color: #008000;
     border-style: solid;
-    border-width: 4px;
-    font-size: 20px;
-    padding: 10px;
-    background-color: #fff;
+    border-width: .25rem;
+    font-size: 1.25rem;
+    padding: .625rem;
+    background-color:#fff;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: .0625rem;
+    border-radius: .5rem;
+
 }
-.nav-link button#diff{
+.top-sectionb{
     border-color: green;
     color: #fff;
     border-style: solid;
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #008000;
-    padding: 10px;
-    letter-spacing: 1px;
-
-
+    padding: .625rem;
+    letter-spacing: .0625rem;
+    border-radius: .5rem;
 }
+
 .set{
-    margin-left: 55px;
+    margin-left: 3.4375rem;
     text-decoration: underline #008000;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.875rem;
 
 }
 .spot{
     display: grid;
-    grid-template-columns: 700px 700px;
-    grid-template-rows: 400px;
+    grid-template-columns:43.75rem 43.75rem ;
+    grid-template-rows: 22rem;
     place-content: center;
     justify-items: center;
     align-items: center;
 }
 .item{  
     text-align: center;
-    font-size: 23px;
+    font-size: 1.4375rem;
     text-decoration:underline #008000;
     text-transform: uppercase;
     text-shadow: #000;
@@ -122,46 +153,46 @@ button a{
     border-color: green;
     color: #fff;
     border-style: solid;
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #008000;
-    padding: 10px;
+    padding: .625rem;
     text-align: center;
     
 }
 .kerala{
     text-align: right;
-    margin-right: 50px;
+    margin-right: 3.125rem;
 }
 .map
 {
     display: flex;
-    margin: 55px;
+    margin: 3.4375rem;
     
 }
 .mapofkerala{
     
     text-align: center;
-    border: 5px;
+    border: .3125rem; 
     border-style: solid;
     border-color: #008000;
     
 }
 .about{
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 250%;
 
     
 }
 #secondp{
-    margin: 55px;
-    font-size: 18px;
+    margin: 3.4375rem;
+    font-size: 1.125rem;
     line-height: 250%;
 
 }
 .district-section{
     display: grid;
-    grid-template-columns:400px 400px 400px;
-    grid-template-rows: 400px;
+    grid-template-columns:repeat(3,25rem);
+    grid-template-rows:repeat(2,25rem);
     place-content: center;
     justify-items: center;
     align-items: center;
@@ -173,19 +204,18 @@ button a{
     text-decoration: underline #008000;
 }
 .districts{
-    width: 350px;
-    //*border-radius: 15px;
-    box-shadow: 10px 5px 26px rgb(170, 165, 165);*/
+    width: 21.875rem;
+   
 }
 
 .img-district{
     width: 100%;
-    height: 300px;
+    height: 18.75rem;
 }
 .img-district img{
     width: 100%;
     height: 100%;
-    border-radius: 150px;
+    border-radius: 9.375rem;
 
 }
 .center{
@@ -193,38 +223,38 @@ button a{
     place-content: center;
 }
 .form-section{
-    width: 350px;
+    width: 21.875rem;
     background-color: white;
-    border: 0px solid black;
-    height: 400px;
-    padding: 40px 0;
-    box-shadow: 4px 6px 5px 2px rgba(0,0, 0, 0.26);
-    border-radius: 15px;
+    border: 0rem solid black;
+    height: 25rem;
+    padding: 2.5rem 0;
+    box-shadow: .25rem .375rem .3125rem .125rem rgba(0,0, 0, 0.26);
+    border-radius: .9375rem;
    
 
 }
 .form-section h1{
     text-align: center;
     color: #008000;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-transform: uppercase;
     text-decoration: underline black; 
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 
 
 }
 input{
     background: transparent;
     border: none;
-    border-bottom: 1px solid #008000;
-    padding: 2px 5px;
+    border-bottom: .0625rem solid #008000;
+    padding: .125rem .3125rem;
 }
 .input-group{
-    width: 300px;
-    margin: 30px auto;
+    width: 18.75rem;
+    margin: 1.875rem auto;
     color: grey;
-    font-size: 16px;
+    font-size: 1rem;
     
 
 }
@@ -235,12 +265,141 @@ input{
     background-color: #008000;
     color: #fff;
     border: none;
-    padding: 10px 0;
-    width: 200px;
-    font-size: 18px;
+    padding: .625rem 0;
+    width: 12.5rem;
+    font-size: 1.125rem;
 
 
 }
 footer{
     background-color: lightgreen;
+}
+ @media all and (max-width: 798px){  
+    main{
+        width: 150%;
+    }
+    .top h1{
+        font-size: 4rem;
+    }
+    .set{
+        font-size: 2.15rem;
+
+    }
+    .nav-links{
+        display: none;
+        
+    }
+    .spot{
+        grid-template-columns:33.75rem;
+    
+    }
+    .item{
+        font-size: 2rem;
+    }
+    .map{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    #secondp{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    .district-section{
+        grid-template-columns:25rem ;
+        align-items: center;
+        
+        
+    }
+    .districts h4{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .img-district{
+        width: 125%;
+    }
+    .form-section{
+        height: 32rem;
+        width: 35rem;
+    }
+    .form-section h1{
+        font-size: 2.25rem;
+    }
+    .input-group{
+        font-size: 1.5rem;
+        
+        
+    }
+    
+    }
+
+}
+@media all and (min-width: 789px) and (max-width:900px){  
+    main{
+        width: 150%;
+    }
+    .top h1{
+        font-size: 4rem;
+    }
+    .set{
+        font-size: 2.15rem;
+        text-align: center;
+
+    }
+    .nav-links{
+        display: none;
+        
+    }
+    .spot{
+        grid-template-columns:33.75rem;
+    
+    }
+    .item{
+        font-size: 2rem;
+    }
+    .map{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    #secondp{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    .district-section{
+         grid-template-columns:400px,400px;
+         grid-template-rows: repeat(400px);
+        
+        
+        
+        
+    }
+    .districts h4{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .img-district{
+        width: 125%;
+    }
+    .form-section{
+        height: 32rem;
+        width: 30rem;
+    }
+    .form-section h1{
+        font-size: 2.25rem;
+    }
+    .input-group{
+        font-size: 1.5rem;
+        
+        
+    }
+    .form-section{
+        width: 150px;
+    }
 }
